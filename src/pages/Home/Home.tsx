@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import AnimCursor from "../../components/AnimCursor/AnimCursor";
 import PreLoader from "../../components/PreLoader/PreLoader";
 import VideoIntro from "../../components/HomePage/VideoIntro/VideoIntro";
+import MyReels from "../../components/HomePage/MyReels/MyReels";
 
 const Home = () => {
   const [isLoading, setISLoading] = useState(true);
@@ -40,6 +41,7 @@ const Home = () => {
           <Projects />
           <MyServices />
           {/* <Testimonials/> */}
+          <MyReels/>
           <Blogs />
           <GetInTouch />
         </>

@@ -48,6 +48,8 @@ const AchievementCard: React.FC<AchievementCardProps> = ({
 
   return (
     <div
+    data-aos="fade-up"
+            data-aos-duration="2000"
       className="h-fit lg:h-[550px] bg-[#0E1330] border border-[#282D45] rounded-3xl p-4 relative group overflow-hidden"
     >
       <img src={image} alt={name} className="w-full h-[300px] lg:h-[389px] rounded-xl" />
