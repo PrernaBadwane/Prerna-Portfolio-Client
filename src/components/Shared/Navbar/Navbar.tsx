@@ -39,14 +39,17 @@ const Navbar = () => {
         },
     ];
     return (
-        <div className="bg-[#0E1330] border-b border-[#282D45] px-3 xl:px-0 py-3 w-full sticky z-20 top-0">
+        <div className="bg-[#0E1330] border-b border-[#282D45] px-3 xl:px-0 py-3 w-full sticky z-[101] top-0">
             <Container>
                 <div className="flex items-center justify-between font-Lato text-lg">
                     <h1 className="bg-gradient-to-br from-blue-600 to-indigo-400 bg-clip-text text-transparent font-Montserrat text-[26px] font-bold">
-                        Developer Rahul
+                        Developer Prerna
                     </h1>
 
-                    {/* Navlinks */}
+                    
+
+                    <div className="flex items-center gap-6">
+                        {/* Navlinks */}
                     <div className="hidden lg:flex items-center gap-10 z-10">
                         {navLinks.map(({ action, label }, index) => (
                             <button
@@ -60,8 +63,6 @@ const Navbar = () => {
 
                         {/* <ShareFeedback classNames={"mx-auto"} /> */}
                     </div>
-
-                    <div className="flex items-center gap-6">
                         <DownloadResumeButton />
                         <div className="block lg:hidden">
                             <HamburgerMenu />

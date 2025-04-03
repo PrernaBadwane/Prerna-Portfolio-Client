@@ -23,7 +23,13 @@ import like from "./Icons/like.svg";
 import location from "./Icons/location.svg";
 import phone from "./Icons/call.svg";
 import email from "./Icons/email.svg";
+import gemini from "./Icons/gemini.svg";
 
+import linkedinGray from "./Icons/Social Icons/linkedin-gray.svg";
+import facebookGray from "./Icons/Social Icons/facebook-gray.svg";
+import instagramGray from "./Icons/Social Icons/instagram-gray.svg";
+import whatsappGray from "./Icons/Social Icons/whatsapp-gray.svg";
+import githubGray from "./Icons/Social Icons/github-gray.svg";
 import linkedin from "./Icons/Social Icons/linkedin.svg";
 import facebook from "./Icons/Social Icons/facebook.svg";
 import twitter from "./Icons/Social Icons/twitter.svg";
@@ -35,12 +41,18 @@ import instagram from "./Icons/Social Icons/instagram.svg";
 import html from "./icons/Skills/html.svg";
 import react from "./icons/Skills/reactjs.svg";
 import js from "./icons/Skills/js.svg";
+import javascript from "./icons/Skills/javascript.svg";
 import ts from "./icons/Skills/typescript.svg";
 import tailwindcss from "./icons/Skills/tailwind-css.svg";
 import node from "./icons/Skills/node-js.svg";
+import express from "./icons/Skills/express.svg";
 import mongodb from "./icons/Skills/mongodb.svg";
 import github from "./icons/Skills/github.svg";
 import css from "./icons/Skills/tailwind-css.svg";
+import firebase from "./icons/Skills/firebase.svg";
+import nextjs from "./icons/Skills/nextjs.svg";
+import redux from "./icons/Skills/redux.svg";
+import restApi from "./icons/Skills/rest-api.svg";
 
 
 import e1 from "./images/E 1.svg";
@@ -75,8 +87,14 @@ export const ICONS = {
     location,
     phone,
     email,
+    gemini,
 
     // Social Icons
+    linkedinGray,
+    facebookGray,
+    whatsappGray,
+    instagramGray,
+    githubGray,
     linkedin,
     facebook,
     twitter,
@@ -93,6 +111,13 @@ export const ICONS = {
     mongodb,
     github,
     css,
+    firebase,
+    nextjs,
+    redux,
+    restApi,
+    express,
+    javascript
+
 };
 
 export const IMAGES = {

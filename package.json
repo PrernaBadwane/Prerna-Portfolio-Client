@@ -1,5 +1,5 @@
 {
-  "name": "developer-rahul-client",
+  "name": "prerna-portfolio-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,6 +20,7 @@
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
     "react-ripples": "^2.2.1",
