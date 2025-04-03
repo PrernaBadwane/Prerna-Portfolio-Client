@@ -1,4 +1,3 @@
-import AboutMe from "../../components/HomePage/AboutMe/AboutMe";
 import Education from "../../components/HomePage/Education/Education";
 import Experience from "../../components/HomePage/Experience/Experience";
 import Hero from "../../components/HomePage/Hero/Hero";
@@ -10,6 +9,7 @@ import GetInTouch from "../../components/HomePage/GetInTouch/GetInTouch";
 import { useEffect, useState } from "react";
 import AnimCursor from "../../components/AnimCursor/AnimCursor";
 import PreLoader from "../../components/PreLoader/PreLoader";
+import VideoIntro from "../../components/HomePage/VideoIntro/VideoIntro";
 
 const Home = () => {
   const [isLoading, setISLoading] = useState(true);
@@ -27,7 +27,7 @@ const Home = () => {
         <>
           <AnimCursor />
           <Hero />
-          <AboutMe />
+          <VideoIntro />
           <ShortResume />
           <div className="text-white bg-[#0E1330] py-[100px] relative mt-28">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">

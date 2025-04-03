@@ -24,6 +24,8 @@ import location from "./Icons/location.svg";
 import phone from "./Icons/call.svg";
 import email from "./Icons/email.svg";
 import gemini from "./Icons/gemini.svg";
+import work from "./Icons/work.svg";
+import intro from "./Videos/original-86af58a91d5c1602700bf144ae38b3a0.mp4";
 
 import linkedinGray from "./Icons/Social Icons/linkedin-gray.svg";
 import facebookGray from "./Icons/Social Icons/facebook-gray.svg";
@@ -88,6 +90,7 @@ export const ICONS = {
     phone,
     email,
     gemini,
+    work,
 
     // Social Icons
     linkedinGray,
@@ -126,5 +129,8 @@ export const IMAGES = {
     rahul,
     commentimg,
     img1,
+}
 
+export const VIDEOS = {
+    intro,
 }

@@ -128,7 +128,7 @@ const Hero = () => {
           <div className="bg-[#0E1330] border border-[#282D45] p-5 rounded-xl w-[65%]">
             <h1 className="bg-gradient-to-br from-blue-600 to-indigo-300 bg-clip-text text-transparent text-5xl md:text-[65px] font-bold leading-[60px] md:leading-[80px] mt-1 font-Sora">
               <img src={ICONS.gemini} alt="" className="size-14 inline mr-3" />
-              Hello, I'm Rahul{" "}
+              Hello, I'm Prerna{" "}
             </h1>
             <h2 className="text-gray-300 font-Poppins text-xl font-semibold mt-1">
               A Web Developer With 2 Years Of Professional Experience.
@@ -200,7 +200,7 @@ const Hero = () => {
             <div className="flex items-center gap-3 mt-6">
               <Ripple onClick={navigateToTalk}>
                 <button className="cursor-pointer border border-blue-700 bg-gradient-to-br from-blue-500 to-indigo-800 transition duration-300 py-3 px-5 font-Poppins text-white rounded-md flex items-center gap-2">
-                  Let’s Talk Us
+                  Let’s Connect
                   <img className="w-5" src={ICONS.contact} alt="" />
                 </button>
               </Ripple>
@@ -208,7 +208,7 @@ const Hero = () => {
               <Ripple onClick={navigateToPortfolio}>
                 <button className="cursor-pointer border border-gray-800 bg-[#1C2242] transition duration-300 py-3 px-5 font-Poppins text-[#c5c5c5] rounded-md flex items-center gap-2">
                   View Works
-                  <img className="w-5" src={ICONS.contact} alt="" />
+                  <img className="w-5" src={ICONS.work} alt="" />
                 </button>
               </Ripple>
             </div>
